@@ -1,23 +1,12 @@
 import './App.css'
 
-import Button from './components/Common/Button'
+import Button from './components/Button/Button'
 
 function App() {
 
   return (
     <div>
       <header>
-        <nav>
-            <a>
-              Home
-            </a>
-            <a>
-              Technologies
-            </a>
-            <a>
-              Projects
-            </a>
-        </nav>
         <div>
           <div className="profile-picture">
             <img src="./pp.png" alt="profile picture Alejandro Pinto"/>
@@ -34,6 +23,9 @@ function App() {
           </div>
         </div>
       </header>
+      <div className="my-work">
+        <h3>My Work</h3>
+      </div>
     </div>
   )
 }

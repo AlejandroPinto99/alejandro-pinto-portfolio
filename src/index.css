@@ -13,6 +13,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 24px;
 }
 
 .profile-picture > img {
@@ -36,3 +38,17 @@ body {
   margin-top: 12px;
 }
 
+.my-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 24px;
+}
+
+.my-work > h3 {
+  color: rgb(25, 120, 33);
+  margin: 0;
+  font-size: 24px;
+}
